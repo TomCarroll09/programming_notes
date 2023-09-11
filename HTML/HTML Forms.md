@@ -121,9 +121,9 @@ When receiving the data, the value attribute and the name attribute will show up
     <input type="radio" value="option2" name="radio1" id="option2" required>
     <label for="option2"> radio button2</label>
   </fieldset>
-<button type="submit">submit</button>
+  <button type="submit">submit</button>
 </form>
-
+```
 This will create a form with a text box at the top, 2 radio buttons underneath it and a button that says submit.
 
 -----
