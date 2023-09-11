@@ -113,16 +113,17 @@ When receiving the data, the value attribute and the name attribute will show up
 ------
 ### \<form>\</form>
 ```
-<form>
+<form action="https://example.com">
   <label><input type="text" name="textbox1" value="text1" required placeholder="text box"> text box1</label>
   <fieldset>
     <legend>Radio-Buttons</legend>
     <label><input type="radio" value="option1" name="radio1" id="radio1" checked required> radio button1</label>
+    <input type="radio" value="option2" name="radio1" id="option2" required>
+    <label for="option2"> radio button2</label>
   </fieldset>
+<button type="submit">submit</button>
 </form>
-```
-### \<input>
-```
-<input type="radio" name="input1" value="option2"> option 2
-```
 
+This will create a form with a text box at the top, 2 radio buttons underneath it and a button that says submit.
+
+-----
