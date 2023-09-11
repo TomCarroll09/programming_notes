@@ -96,9 +96,33 @@ makes it checked by default.
 ```
 <button action="submit">Submit</button>
 ```
-Will make the button submit the form.
+Will make the button submit the form, this usually is the defualt behaviour but its best to not rely on it.
 
 -------
+```
+<label for="element_id"></label>
+```
+Will prevent the need to wrap the label element around the input element. the value should be the elements id.
+
+------
 # Tips:
 the name attribute is used when there are multiple options, but you only want to user to select one of them, this differentiates it from the “id” attribute.
 When receiving the data, the value attribute and the name attribute will show up on the results.
+
+# Syntax
+------
+### \<form>\</form>
+```
+<form>
+  <label><input type="text" name="textbox1" value="text1" required placeholder="text box"> text box1</label>
+  <fieldset>
+    <legend>Radio-Buttons</legend>
+    <label><input type="radio" value="option1" name="radio1" id="radio1" checked required> radio button1</label>
+  </fieldset>
+</form>
+```
+### \<input>
+```
+<input type="radio" name="input1" value="option2"> option 2
+```
+
