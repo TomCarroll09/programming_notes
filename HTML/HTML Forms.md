@@ -93,7 +93,12 @@ contains the value of the data being submitted.
 makes it checked by default.
 
 ----
+```
+<button action="submit">Submit</button>
+```
+Will make the button submit the form.
 
+-------
 # Tips:
 the name attribute is used when there are multiple options, but you only want to user to select one of them, this differentiates it from the “id” attribute.
 When receiving the data, the value attribute and the name attribute will show up on the results.
