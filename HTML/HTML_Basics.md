@@ -86,4 +86,46 @@ Image tag, this one would contain the image "image.jpg" on example.com, and the 
 Creates a link. in this example the link will bring you to "example.com" and it will open in a new tab(target="_blank").
 
 -------
-<
+``` html
+<!--Comment here-->
+```
+Comment, the comment in this example is "Comment here".
+
+------
+``` html
+<figure>
+  <img src="https://example.com/image.jpg" alt="example image">
+  <figcaption>Example Image</figcaption>
+</figure>
+```
+The \<figure> element is used to group images and captions together. The \<figcaption> element is the caption.
+
+----
+``` html
+<hr>
+```
+Creates a horizontal line as a divider.
+
+-----
+``` html
+<div></div>
+```
+A generic container used for styling purposes.
+
+-----
+``` html
+<ol>
+  <li>option1</li>
+  <li>option2</li
+  <li>option3</li>
+</ol>
+<ul>
+  <li>option4</li>
+  <li>option5</li>
+  <li>option6</li>
+</ul>
+```
+The \<ol> element is used to indicate an ordered (numbered) list. the \<ul> element is used to indicate an unordered (bulleted) list. \<li> is used to indicate a list item.
+
+-----
+```
