@@ -212,8 +212,12 @@ An example of a repeat loop, similar to a do loop in other langauges.
 print("What is your name?")
 local answer = io.read()
 print("Name:", ans)
+```
 
 -- example 2
+
+```
+
 io.write("Enter your name: ")
 local ans = io.read()
 
