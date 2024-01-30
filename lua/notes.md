@@ -343,7 +343,7 @@ opens a file for input, adds the contents of the file to the fileData variable a
 -----
 ```lua
 local file = io.open("myFile.txt", "w")
-if file ~= nul then
+if file ~= nil then
 	file:write("Hello, there!")
 	file:close()
 else
