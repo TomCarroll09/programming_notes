@@ -142,6 +142,11 @@ else
 	print("false")
 end
 ```
+if/else statement in lua
+
+-----
+
+```
 if true then
 	print("It was true")
 elseif false then
@@ -150,6 +155,8 @@ else
 	print("I dont know")
 end
 ```
+if/else/elseif statement in lua
+
 ----
 ```
 local age = 19
