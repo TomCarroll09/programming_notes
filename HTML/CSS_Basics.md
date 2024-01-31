@@ -1,6 +1,6 @@
-#CSS Basics
+# CSS Basics
 
-##Syntax
+## Syntax
 ``` css
 element {
 attribute: value;
@@ -24,7 +24,7 @@ attribute: value;
 }
 
 
-##Attributes and values
+## Attributes and values
 ``` css
 text-align
 ```
@@ -44,7 +44,7 @@ background-color: burlywood;
 ```
 
 
-##Useful Tips
+## Useful Tips
 ``` html
 <style></style>
 ```
