@@ -410,5 +410,58 @@ Appeneds some text on to the specified file. it will not start on a newline.
 # external modules
 
 ----
+An external module in lua is another lua file that returns a table. it can be used like so:
+
 ``` lua
+
+-- This is a different lua file. In this example it is called "custom.lua"
+
+Mod = {
+	subtract = function (num1, num2)
+		return num1 - num2
+	end
+}
+
+function Mod.add(num1, num2)
+	return num1 + num2
+end
+
+return Mod
+```
+The above code is a custom module. It showcases the two different ways of adding a fucntion to a custom module, one is by adding it directly in the table, the other is not. if you do not include the function in the table, leave it blank
+
+``` lua
+-- This is the main.lua file.
+
+local mod = require("custom")
+print(mod.add(3, 6))
+print(mod.subtract(5, 2))
+```
+
+This utilises the custom.lua module by using the functions in that file.
+
+------
+# OOP
+
+``` lua
+local function Phone(brand, os, quality)
+	return {
+		brand = brand,
+		os = os or "Android/iOS",
+		quality = quality or "unknown",
+		torch = function ()
+			print("The torch is on!")
+		end,
+		turnOn = function ()
+			print("The phone is on")
+		end
+	}
+end
+
+phone = Phone("Librem", "Mobian", "good")
+print(phone.os)
+phone.torch()
+phone.turnOn()
+```
+This is an example of OOP in lua. A class is a function returning a table. An Object is  value in the table.
 
