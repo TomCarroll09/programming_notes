@@ -463,5 +463,5 @@ print(phone.os)
 phone.torch()
 phone.turnOn()
 ```
-This is an example of OOP in lua. A class is a function returning a table. An Object is  value in the table.
+This is an example of OOP in lua. An onject is a function returning a table. An Attribute is  value in the table.
 
